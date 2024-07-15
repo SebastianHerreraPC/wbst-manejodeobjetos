@@ -17,8 +17,8 @@ const obj = {
   two: 2,
   three: 3,
 };
-
-console.log(obj.three);
+obj.four = 4;
+console.log(obj);
 
 //Abreviaciones de propiedades
 
@@ -45,3 +45,15 @@ const numeros = {
 };
 
 console.log(numeros);
+
+//ejemplo de añadir
+const welcomeMessages = {
+  english: "Welcome",
+  french: "Bienvenue",
+  italian: "Benvenuto",
+  spanish: "bienvenido",
+  russian: "Добро пожаловать",
+  chinese: "歡迎",
+};
+
+welcomeMessages.finnish = "Tervetuloa";
