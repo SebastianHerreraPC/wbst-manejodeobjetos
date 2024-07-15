@@ -19,3 +19,29 @@ const obj = {
 };
 
 console.log(obj.three);
+
+//Abreviaciones de propiedades
+
+const uno = 1;
+const dos = 2;
+const tres = 3;
+
+function numeracion() {
+  return "los numeros";
+}
+//opcion uno de abreviacion
+
+/*const numeros = {
+  uno: uno,
+  dos: dos,
+  tres: tres,
+};*/
+
+//opcion dos de abreviacion
+const numeros = {
+  uno,
+  dos,
+  tres,
+};
+
+console.log(numeros);
