@@ -47,7 +47,7 @@ const numeros = {
 console.log(numeros);
 
 //ejemplo de añadir
-const welcomeMessages = {
+/*const welcomeMessages = {
   english: "Welcome",
   french: "Bienvenue",
   italian: "Benvenuto",
@@ -56,4 +56,22 @@ const welcomeMessages = {
   chinese: "歡迎",
 };
 
-welcomeMessages.finnish = "Tervetuloa";
+welcomeMessages.finnish = "Tervetuloa";*/
+
+//abreviada de arriba
+
+const english = "Welcome";
+const french = "Bienvenue";
+const italian = "Benvenuto";
+const spanish = "bienvenido";
+const russian = "Добро пожаловать";
+const chinese = "歡迎";
+
+const welcomeMessages = {
+  english,
+  french,
+  italian,
+  spanish,
+  russian,
+  chinese,
+};
