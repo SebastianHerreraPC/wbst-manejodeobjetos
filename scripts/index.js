@@ -133,3 +133,19 @@ agregaNumero("Charlie", "work", "123456789");
 console.log(agendaTelefonica["Alice"].movil);
 console.log(agendaTelefonica["Charlie"].home);
 console.log(agendaTelefonica["Charlie"].work);
+
+//"Asignación Dinámica de Valores de Ventana"
+const yourNumber = "D135";
+let windowNumber;
+
+const windows = {
+  D133: 1,
+  D134: 2,
+  D135: 3,
+  D136: 4,
+  D137: 5,
+};
+
+windowNumber = windows[yourNumber] || windowNumber[0];
+
+console.log(windows["D136"]);
