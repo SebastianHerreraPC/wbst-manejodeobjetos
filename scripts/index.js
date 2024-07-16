@@ -75,3 +75,9 @@ const welcomeMessages = {
   russian,
   chinese,
 };
+
+//funcion de añadir nuevas opciones
+
+function addWelcomeMessage(language, message) {
+  welcomeMessages[language] = message;
+}
