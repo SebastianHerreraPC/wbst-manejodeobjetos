@@ -94,14 +94,42 @@ const phonebook = {
     mobile: "+4235555616",
   },
 };
-
+//funcion que toma 3 parametros
 function addPhoneNumber(name, numberType, number) {
+  //si no existe el nombre en la funcion agrega el nombre con un objeto vacio
   if (!phonebook[name]) {
     phonebook[name] = {};
   }
+  //accede y crea una propiedad que es el numberType como clave y se le asigna el valor de el numero de telefono
   phonebook[name][numberType] = number;
 }
 // cuando la función esté lista, añade el número de teléfono de xx
 addPhoneNumber("Stephanie Noland", "móvil", "+4235555212");
 
 console.log(phonebook["Stephanie Noland"].móvil); // "+4235555212"
+
+//ejercicio aparte:
+
+const agendaTelefonica = {
+  Alice: {
+    home: "000123456",
+    work: "00123456789",
+  },
+  Bob: {
+    movil: "30029504",
+  },
+};
+function agregaNumero(nombre, lugar, telefono) {
+  if (!agendaTelefonica[nombre]) {
+    agendaTelefonica[nombre] = {};
+  }
+  agendaTelefonica[nombre][lugar] = telefono;
+}
+
+agregaNumero("Charlie", "home", "00000");
+agregaNumero("Alice", "movil", "12345678910");
+agregaNumero("Charlie", "work", "123456789");
+
+console.log(agendaTelefonica["Alice"].movil);
+console.log(agendaTelefonica["Charlie"].home);
+console.log(agendaTelefonica["Charlie"].work);
