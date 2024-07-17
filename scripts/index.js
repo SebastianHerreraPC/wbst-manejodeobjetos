@@ -145,7 +145,12 @@ const windows = {
   D136: 4,
   D137: 5,
 };
-
+//si el numero no se encuentra te manda a 0
 windowNumber = windows[yourNumber] || windowNumber[0];
 
 console.log(windows["D136"]);
+//eliminar propiedades
+
+const obje = {
+  one: 1,
+};
