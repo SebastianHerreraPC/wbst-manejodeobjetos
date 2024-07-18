@@ -1,4 +1,4 @@
-//Copiar
+//Paso por referencia
 function copy(obj) {
   const res = {};
 
