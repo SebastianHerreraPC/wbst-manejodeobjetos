@@ -56,14 +56,17 @@ Object.keys(tion).forEach(function (key) {
 
 console.log(tion);
 
-/*
-  
-    {
-      fruition: "la realización o cumplimiento de un plan o proyecto",
-      depreciation: "el proceso de pérdida de valor",
-      alienation: "la transmisión de la propiedad",
-     bifurcation: "el punto o la zona en la que algo se divide en dos ramas o partes",
-      locomotion: "la capacidad de moverse"
-    }
-  
-  */
+//ejercicio con swap
+function swap(obj) {
+  const res = {};
+  Object.keys(obj).forEach(function (key) {
+    res[obj[key]] = key;
+  });
+  return res;
+}
+
+const myObj = {
+  first: 1,
+  second: 2,
+  third: 3,
+};
