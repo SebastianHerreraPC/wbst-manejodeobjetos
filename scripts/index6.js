@@ -30,5 +30,4 @@ const fish = {
 const frog = evolution(fish, "legs", 4);
 
 console.log("rana: ", frog);
-
 console.log("pez: ", fish);
