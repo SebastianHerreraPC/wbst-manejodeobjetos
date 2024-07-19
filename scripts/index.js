@@ -149,8 +149,3 @@ const windows = {
 windowNumber = windows[yourNumber] || windowNumber[0];
 
 console.log(windows["D136"]);
-//eliminar propiedades
-
-const obje = {
-  one: 1,
-};
